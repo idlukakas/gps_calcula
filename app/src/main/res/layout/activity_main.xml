@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/grantgpsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:padding="14sp"
+        android:text="@string/gpspermissions_Button" />
+
+    <Button
+        android:id="@+id/enablegpsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:padding="14sp"
+        android:text="@string/enablegps_Button" />
+
+
+    <Button
+        android:id="@+id/disablegpsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:padding="14sp"
+        android:text="@string/disablegps_Button" />
+
+
+    <Button
+        android:id="@+id/startrouteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:padding="14sp"
+        android:text="@string/startroute_Button" />
+
+    <Button
+        android:id="@+id/stoprouteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:padding="14sp"
+        android:text="@string/stoproute_Button" />
+
+    <TextView
+        android:id="@+id/travelledDistancetextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/distancetravelledtext_TextView_Text"
+        android:textSize="@dimen/travelleddistancetext_TextView_Size" />
+
+
+    <TextView
+        android:id="@+id/travelleddistanceValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:paddingTop="8sp"
+        android:text="0.0 "
+        android:textSize="@dimen/travelleddistanceValueTextView_Size" />
+
+
+    <TextView
+        android:id="@+id/pasttimetextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/pasttimetextTextView_Text"
+        android:textSize="@dimen/travelleddistancetext_TextView_Size" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:paddingTop="8sp"
+        android:text="TextView"
+        android:textSize="@dimen/travelleddistanceValueTextView_Size" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_row="9"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="fill_vertical"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchPlainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="14"
+            android:hint="@string/hinttextTextView"
+            android:inputType="textPersonName"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:text="@string/searchButton" />
+
+    </LinearLayout>
+
+</GridLayout>

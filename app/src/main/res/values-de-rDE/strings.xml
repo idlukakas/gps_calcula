@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS-Entfernung</string>
+    <string name="gpspermissions_Button">Erteilen Sie GPS-Berechtigungen</string>
+    <string name="enablegps_Button">GPS aktivieren</string>
+    <string name="disablegps_Button">GPS deaktivieren</string>
+    <string name="startroute_Button">Route starten</string>
+    <string name="stoproute_Button">Route anhalten</string>
+    <string name="searchButton">Entdecken!</string>
+    <string name="distancetravelledtext_TextView_Text">Zurückgelegte Entfernung</string>
+    <string name="hinttextTextView">In der Nähe entdecken</string>
+    <string name="pasttimetextTextView_Text">Vergangene Zeit</string>
+    <string name="locationnotfound_Text">Standort nicht gefunden</string>
+    <string name="permissiongpsalreadygrantedText">Die GPS-Genehmigung wurde bereits erteilt</string>
+    <string name="clickgrantgpsText">Klicken Sie auf GPS-Berechtigung erteilen, um GPS zu aktivieren</string>
+    <string name="gpsturnedoff">GPS ausgeschaltet</string>
+    <string name="gpsalreadyoff">GPS ist bereits ausgeschaltet</string>
+    <string name="nogpsisImpossibleText">Kein GPS ist unmöglich</string>
+    <string name="meters">meter</string>
+</resources>

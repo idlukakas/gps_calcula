@@ -1,0 +1,4 @@
+#Fri Mar 08 17:33:07 BRT 2019
+base.0=/home/alunofatec/dev/GPSCalcula/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

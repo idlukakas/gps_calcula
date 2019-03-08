@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculate distance</string>
+    <string name="gpspermissions_Button">Grant GPS permissions</string>
+    <string name="enablegps_Button">Enable GPS</string>
+    <string name="disablegps_Button">Disable GPS</string>
+    <string name="startroute_Button">Start Route</string>
+    <string name="stoproute_Button">Stop Route</string>
+    <string name="searchButton">Search</string>
+    <string name="distancetravelledtext_TextView_Text">Travelled Distance</string>
+    <string name="hinttextTextView">What do you want to find?</string>
+    <string name="pasttimetextTextView_Text">Past Time</string>
+    <string name="locationnotfound_Text">Location Not Found</string>
+    <string name="permissiongpsalreadygrantedText">GPS permission has already been granted</string>
+    <string name="clickgrantgpsText">Click Grant GPS Permission to Enable GPS</string>
+    <string name="gpsturnedoff">GPS turned off</string>
+    <string name="gpsalreadyoff">GPS is already off</string>
+    <string name="nogpsisImpossibleText">No GPS is impossible</string>
+    <string name="meters">meters</string>
+</resources>

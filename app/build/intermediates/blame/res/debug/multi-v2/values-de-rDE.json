@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/alunofatec/dev/GPSCalcula/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de-rDE/values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "/home/alunofatec/dev/GPSCalcula/app/src/main/res/values-de-rDE/strings.xml",
+                    "from": {
+                        "startLines": "2,14,5,9,4,16,3,15,10,12,18,17,11,13,8,6,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,886,249,484,189,1055,107,996,573,710,1200,1127,640,784,432,312,372",
+                        "endColumns": "51,109,62,88,59,71,81,58,66,73,40,72,69,101,51,59,59",
+                        "endOffsets": "102,991,307,568,244,1122,184,1050,635,779,1236,1195,705,881,479,367,427"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,217,280,369,429,501,583,642,709,783,824,897,967,1069,1121,1181",
+                        "endColumns": "51,109,62,88,59,71,81,58,66,73,40,72,69,101,51,59,59",
+                        "endOffsets": "102,212,275,364,424,496,578,637,704,778,819,892,962,1064,1116,1176,1236"
+                    }
+                }
+            ]
+        }
+    ]
+}
